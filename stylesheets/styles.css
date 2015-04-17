@@ -1,6 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway);
 
 body {
+  background-attachment:fixed !important;
+  background-position:0 -100;
+  background-size:100%;
   padding:50px;
   font:16px/1.5;
   font-family: 'Raleway', sans-serif;
