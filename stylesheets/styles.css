@@ -5,6 +5,7 @@ body {
   background-image:url("../images/wall.png");
   background-position:0 -100;
   background-size:100%;
+  background-attachment:fixed;
   padding:50px;
   font:16px/1.5;
   font-family: 'Raleway', sans-serif;
@@ -39,7 +40,7 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color:#00FFFF;
+  color:#00BFFF;
   font-weight:400;
   text-decoration:none;
 }
