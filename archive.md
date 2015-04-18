@@ -10,8 +10,8 @@ title: Archive
     {% capture next_month %}{{ post.previous.date | date: "%B" }}{% endcapture %}
 	
     {% if forloop.first %}
-    <h5 id="{{ this_year }}-ref">{{this_year}}</h5>
-    <h6 id="{{ this_year }}-{{ this_month }}-ref">{{ this_month }}</h6>
+    <h4 id="{{ this_year }}-ref">{{this_year}}</h4>
+    <h5 id="{{ this_year }}-{{ this_month }}-ref">{{ this_month }}</h5>
     <ul>
     {% endif %}
 
@@ -22,13 +22,13 @@ title: Archive
     {% else %}
         {% if this_year != next_year %}
         </ul>
-        <h2 id="{{ next_year }}-ref">{{next_year}}</h2>
-        <h3 id="{{ next_year }}-{{ next_month }}-ref">{{ next_month }}</h3>
+        <h4 id="{{ next_year }}-ref">{{next_year}}</h4>
+        <h5 id="{{ next_year }}-{{ next_month }}-ref">{{ next_month }}</h5>
         <ul>
         {% else %}    
             {% if this_month != next_month %}
             </ul>
-            <h3 id="{{ this_year }}-{{ next_month }}-ref">{{ next_month }}</h3>
+            <h4 id="{{ this_year }}-{{ next_month }}-ref">{{ next_month }}</h4>
             <ul>
             {% endif %}
         {% endif %}
