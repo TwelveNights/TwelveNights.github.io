@@ -3,6 +3,8 @@ layout: page
 title: Archive
 ---
 
+<p class="archive">Here are my blog posts, organized by date.</p>
+
 {% for post in site.posts %}
     {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
     {% capture nmonth %}{{ post.next.date | date: '%m%Y' }}{% endcapture %}
