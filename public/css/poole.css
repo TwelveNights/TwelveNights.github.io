@@ -31,7 +31,6 @@ body {
   text-align: center;
   background-attachment:fixed !important;
   background-image: url('../../images/wall.png');
-  background-position:center;
   background-size:100%;
   background-attachment:fixed;
 }
