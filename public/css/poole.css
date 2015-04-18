@@ -49,6 +49,7 @@ body {
   background-position:0 -100;
   background-size:100%;
   background-attachment:fixed;
+  text-align: center;
 }
 
 html {
@@ -288,7 +289,6 @@ tbody tr:nth-child(odd) th {
  */
  
 .container {
-  text-align: center;
   max-width: 38rem;
   padding-left:  1rem;
   padding-right: 1rem;
