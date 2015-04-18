@@ -19,12 +19,14 @@ title: Archive
 
     {% if forloop.last %}
     </ul>
+
     {% else %}
         {% if this_year != next_year %}
         </ul>
-        <h4 id="{{ next_year }}-ref">{{next_year}}</h4>
+
+        <h4 id="{{ next_year }}-ref">{{ next_year }}</h4>
         <h5 id="{{ next_year }}-{{ next_month }}-ref">{{ next_month }}</h5>
-        <ul list-style-type="none">
+        <ul>
         {% else %}    
             {% if this_month != next_month %}
             </ul>
