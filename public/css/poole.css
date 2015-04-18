@@ -50,8 +50,9 @@ body {
   background-position:0 -100;
   background-size:100%;
   background-attachment:fixed;
-  margin: 0% 10% 0%
-  padding: 100%;
+  text-align: center
+  margin: 0;
+  padding: 0;
 }
 
 html {
