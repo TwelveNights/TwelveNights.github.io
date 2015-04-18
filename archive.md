@@ -4,15 +4,12 @@ title: Archive
 ---
 
 {% for post in site.posts %}
-  {% capture currentyear %}{{post.date | date: "%B %Y"}}{% endcapture %}
-  {% if currentyear != year %}
-    {% unless forloop.first %}</ul>{% endunless %}
-    <h1>{{ currentyear }}</h1>
-    <ul>
-    {% capture year %}{{currentyear}}{% endcapture %} 
-  {% endif %}
+    {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
+    {% capture nmonth %}{{ post.next.date | date: '%m%Y' }}{% endcapture %}
+        {% if month != nmonth %}
+            {% if forloop.index != 1 %}</ul>{% endif %}
+            <h3>{{ post.date | date: '%B %Y' }}</h3><ul>
+        {% endif %}
     <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% if forloop.last %}
-    </ul>
-  {% endif %}
+    <time>{{ post.date | date: "%e %B %Y" }}</time>
 {% endfor %}
