@@ -43,11 +43,13 @@
           box-sizing: border-box;
 }
 
-
-
-
 html,
 body {
+  background-attachment:fixed !important;
+  background-image: url('{{ site.baseurl }}images/wall.png');
+  background-position:0 -100;
+  background-size:100%;
+  background-attachment:fixed;
   margin: 0;
   padding: 0;
 }
