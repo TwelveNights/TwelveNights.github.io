@@ -8,7 +8,7 @@ tagline:          Programmer, I think.
 url:              twelvenights.github.io
 paginate:         3
 baseurl:          /
-author:			  TwelveNights
+author:
   name:           Eddie Zhou
   url:            https://github.com/TwelveNights
   email:          me@eddiezhou.me
