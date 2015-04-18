@@ -22,6 +22,5 @@ github:
   repo:           https://github.com/TwelveNights/TwelveNights.github.io
 
 pages_list:
-  About: '/about'
-  Archive: '/archive'
-  Feed: '/atom.xml'
+  About: '{{ site.baseurl }}nav/about.md'
+  Archive: '{{ site.baseurl }}nav/archive.md'
