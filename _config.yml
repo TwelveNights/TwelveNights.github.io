@@ -22,5 +22,5 @@ github:
   repo:           https://github.com/TwelveNights/TwelveNights.github.io
 
 pages_list:
-  About: '{{ site.baseurl }}nav/about.md'
-  Archive: '{{ site.baseurl }}nav/archive.md'
+  About: '/about'
+  Archive: '/archive'
