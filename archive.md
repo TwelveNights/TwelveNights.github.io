@@ -8,7 +8,7 @@ title: Archive
   {% capture currentyear %}{{post.date | date: "%Y"}}{% endcapture %}
   {% if currentyear != year %}
     {% if currentmonth != month %}
-      <li>{{ currentmonth }} {{ currentyear }}</li>
+      <li><h3>{{ currentmonth }} {{ currentyear }}</h3></li>
       {% capture year %}{{ currentyear }}{% endcapture %}
       {% capture month %}{{ currentmonth }}{% endcapture %}
     {% endif %}
