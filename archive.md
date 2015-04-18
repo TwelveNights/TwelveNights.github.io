@@ -3,7 +3,7 @@ layout: page
 title: Archive
 ---
 
-{% for post in site.posts  %}
+{% for post in site.posts %}
     {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
     {% capture this_month %}{{ post.date | date: "%B" }}{% endcapture %}
     {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
@@ -12,7 +12,7 @@ title: Archive
     {% if forloop.first %}
     <h4 id="{{ this_year }}-ref">{{this_year}}</h4>
     <h5 id="{{ this_year }}-{{ this_month }}-ref">{{ this_month }}</h5>
-    <ul list-style-type="none">
+    <ul>
     {% endif %}
 
     <li><a href="{{ post.url }}">{{ post.title }}</a></li>
@@ -29,7 +29,7 @@ title: Archive
             {% if this_month != next_month %}
             </ul>
             <h4 id="{{ this_year }}-{{ next_month }}-ref">{{ next_month }}</h4>
-            <ul list-style-type="none">
+            <ul>
             {% endif %}
         {% endif %}
     {% endif %}
