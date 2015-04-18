@@ -13,7 +13,6 @@ title: Archive
     <h4 id="{{ this_year }}-ref">{{this_year}}</h4>
     <h5 id="{{ this_year }}-{{ this_month }}-ref">{{ this_month }}</h5>
     <ul list-style-type="none">
-  >
     {% endif %}
 
     <li><a href="{{ post.url }}">{{ post.title }}</a></li>
