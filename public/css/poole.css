@@ -86,12 +86,8 @@ h3 {
   font-size: 1.25rem;
 }
 h4, h5, h6 {
-  margin-top: 1rem;
+  margin-top: .5rem;
   font-size: 1rem;
-}
-
-h5, h6 {
-  margin-top: 0rem
 }
 
 /* Body text */
