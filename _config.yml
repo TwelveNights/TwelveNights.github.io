@@ -2,20 +2,22 @@
 permalink:        pretty
 relative_permalinks: true
 
+# Dependancies 
+highlighter: pygments
+
 # Setup
 title:            Eddie Zhou
 tagline:          Programmer, I think.
-url:              twelvenights.github.io
-paginate:         3
+url:              http://eddiezhou.me
+paginate:         1
 baseurl:          /
-author:         TwelveNights
-name:           Eddie Zhou
-url:            https://github.com/TwelveNights
-email:          me@eddiezhou.me
+author:
+  name:           Eddie Zhou
+  url:            github.com/TwelveNights
+  email:          me@eddiezhou.me
 
 # Custom vars
 version:          1.0.0
-# github:			    "github.com/TwelveNights"
-repo:           "github.com/TwelveNights/TwelveNights.github.io.git"
+github:
+  repo:           https://github.com/TwelveNights/TwelveNights.github.io
 
-highlighter: pygments
