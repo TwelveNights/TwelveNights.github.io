@@ -15,7 +15,7 @@ author:			  TwelveNights
 
 # Custom vars
 version:          1.0.0
-github:			  TwelveNights
+github:			  github: [Repository metadata]
   repo:           https://github.com/TwelveNights/TwelveNights.github.io.git
 
 highlighter: pygments
