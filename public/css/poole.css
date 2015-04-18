@@ -41,6 +41,15 @@
           box-sizing: border-box;
 }
 
+body {
+  background-attachment:fixed !important;
+  background-image: url('{{ site.baseurl }}/images/wall.png');
+  background-position:0 -100;
+  background-size:100%;
+  background-attachment:fixed;
+}
+
+
 html,
 body {
   margin: 0;
