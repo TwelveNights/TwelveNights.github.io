@@ -13,6 +13,8 @@
  * https://github.com/poole/poole.
  */
 
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
 
 /*
  * Contents
@@ -41,13 +43,7 @@
           box-sizing: border-box;
 }
 
-body {
-  background-attachment:fixed !important;
-  background-image: url('/../../images/wall.png');
-  background-position:0 -100;
-  background-size:100%;
-  background-attachment:fixed;
-}
+
 
 
 html,
@@ -57,7 +53,7 @@ body {
 }
 
 html {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -70,6 +66,11 @@ html {
 body {
 /*  color: #515151;
   background-color: #fff; */
+  background-attachment:fixed !important;
+  background-image: url('/../../images/wall.png');
+  background-position:0 -100;
+  background-size:100%;
+  background-attachment:fixed;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
