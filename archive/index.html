@@ -3,12 +3,13 @@ layout: page
 title: Archive
 ---
 
-<p class="archive">Here are my blog posts, organized by date.</p>
-
-{% for post in site.posts %}
-  {{ post.date | date_to_string }}<br /> 
-  <a href="{{ post.url }}" title="{{ post.title }}">
-  &raquo;
-  {{ post.title }}
-  </a>
-{% endfor %}
+<div class="archive">
+	Here are my blog posts, organized by date.
+	{% for post in site.posts %}
+		{{ post.date | date_to_string }}<br /> 
+		<a href="{{ post.url }}" title="{{ post.title }}">
+		&raquo;
+		{{ post.title }}
+		</a>
+	{% endfor %}
+</div>
