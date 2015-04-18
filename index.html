@@ -14,15 +14,7 @@ title: Home
 
     <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
 
-    {{ post.content }} <a href="{{ post.url }}" title="{{ post.title }}">... Read More</a>
-	
-	<div class="post-content-truncate">
-  {% if post.content contains "<!-- more -->" %}
-    {{ post.content | split:"<!-- more -->" | first % }}
-  {% else %}
-    {{ post.content | strip_html | truncatewords:100 }}
-  {% endif %}
-</div>
+    {{ post.content }}
   </article>
   {% endfor %}
 </div>
