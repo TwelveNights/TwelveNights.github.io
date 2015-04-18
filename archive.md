@@ -12,7 +12,8 @@ title: Archive
     {% if forloop.first %}
     <h4 id="{{ this_year }}-ref">{{this_year}}</h4>
     <h5 id="{{ this_year }}-{{ this_month }}-ref">{{ this_month }}</h5>
-    <ul>
+    <ul list-style-type="none";
+  >
     {% endif %}
 
     <li><a href="{{ post.url }}">{{ post.title }}</a></li>
@@ -24,12 +25,12 @@ title: Archive
         </ul>
         <h4 id="{{ next_year }}-ref">{{next_year}}</h4>
         <h5 id="{{ next_year }}-{{ next_month }}-ref">{{ next_month }}</h5>
-        <ul>
+        <ul list-style-type="none">
         {% else %}    
             {% if this_month != next_month %}
             </ul>
             <h4 id="{{ this_year }}-{{ next_month }}-ref">{{ next_month }}</h4>
-            <ul>
+            <ul list-style-type="none">
             {% endif %}
         {% endif %}
     {% endif %}
