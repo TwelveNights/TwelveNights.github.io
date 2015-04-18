@@ -36,7 +36,11 @@
  * Update the foundational and global aspects of the page.
  */
 
-
+*{
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
 
 html,
 body {
@@ -47,7 +51,6 @@ body {
   background-attachment:fixed;
   text-align: center;
   margin: 0% 10%;
-  padding: 0% 10%;
 }
 
 html {
