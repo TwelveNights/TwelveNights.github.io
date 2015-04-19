@@ -33,8 +33,7 @@ body {
   background-attachment:fixed !important;
   background-image: url('../../images/wall.png');
   background-position:0 -100;
-  background-size:100
-  background-repeat: repeat-x;
+  background-size: 100%;
 }
 
 html {
