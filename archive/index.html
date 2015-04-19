@@ -4,7 +4,7 @@ title: Archive
 ---
 
 Here are my blog posts, organized by date	
-<div class="archives">.
+<div class="archives" style="text-align:left">
 	<br />
 	
 	{% for post in site.posts  %}
@@ -34,7 +34,7 @@ Here are my blog posts, organized by date
 				</ul>
 				<h3 id="{{ this_year }}-{{ next_month }}-ref">{{ next_month }}</h3>
 				<ul>
-				{% endif %}]
+				{% endif %}
 			{% endif %}
 		{% endif %}
 	{% endfor %}
