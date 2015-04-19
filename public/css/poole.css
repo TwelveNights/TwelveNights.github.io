@@ -34,7 +34,6 @@ body {
   background-image: url('../../images/wall.png');
   background-position:0 -100;
   background-size: 100%;
-  background-repeat: no-repeat;
 }
 
 html {
@@ -45,6 +44,10 @@ html {
 @media (min-width: 38em) {
   html {
     font-size: 20px;
+  }
+
+  body {
+    background-repeat: repeat-x;
   }
 }
 
