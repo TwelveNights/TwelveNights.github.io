@@ -30,11 +30,17 @@
 html,
 body {
   text-align: center;
-  background-attachment:fixed !important;
+  background-attachment: fixed;
   background-image: url('../../images/wall.png');
   background-position:0 -100;
   background-size: 100%;
   background-repeat: repeat-x;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-image: none;
+  }
 }
 
 html {
