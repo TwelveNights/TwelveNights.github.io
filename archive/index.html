@@ -5,7 +5,12 @@ title: Archive
 
 Here are my blog posts, organized by date
 
-<head>
+
+  
+
+<div class="archives" style="text-align:left">
+	<br />
+	
 	<style>
 		archives {
 			text-align: left;
@@ -13,7 +18,7 @@ Here are my blog posts, organized by date
 		
 		h2 {
 			margin-top: 0;
-			margin-left: 2rem;
+			margin-left: 2rem;	
 			margin-bottom: 0;
 		}
 		
@@ -31,11 +36,6 @@ Here are my blog posts, organized by date
 			margin-left: 4rem;
 		}
 	</style>
-<head>
-  
-
-<div class="archives" style="text-align:left">
-	<br />
 	
 	{% for post in site.posts  %}
 		{% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
