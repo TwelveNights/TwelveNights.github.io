@@ -27,20 +27,7 @@
           box-sizing: border-box;
 }
 
-html,
-body {
-  text-align: center;
-  background-attachment: fixed !important;
-  background-image: url('../../images/wall.png');
-  background-position:0 -100;
-  background-size: 100%;
-}
-html {
-  font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-  line-height: 1.5;
-}
-
+/* background image */
 @media (min-device-width: 320px) {
   html, body {
     background-image: None;
@@ -57,6 +44,36 @@ html {
   html, body {
     background-image: None;
   }
+}
+
+@media (min-device-width: 801px) {
+  html, body {
+    background-image: url('../../images/wall.png');
+  }
+}
+
+@media (min-width:1025px) {
+  html, body {
+    background-image: url('../../images/wall.png');
+  }
+}
+@media (min-width:1281px) {
+  html, body {
+    background-image: url('../../images/wall.png');
+  }
+}
+html,
+body {
+  text-align: center;
+  background-attachment: fixed !important;
+  background-image: url('../../images/wall.png');
+  background-position:0 -100;
+  background-size: 100%;
+}
+html {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 @media (min-width: 38em) {
