@@ -38,8 +38,8 @@ body {
 }
 html {
   font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-  line-height: 1.5;
+  font-size: 20px;
+  line-height: 1.75;
 }
 @media (min-width: 38em) {
   html {
