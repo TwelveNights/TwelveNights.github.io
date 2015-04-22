@@ -34,7 +34,6 @@ body {
   background-image: url('../../images/wall.png');
   background-position:0 -100;
   background-size: 100%;
-  background-repeat: repeat-x;
 }
 html {
   font-family: 'Raleway', sans-serif;
@@ -44,10 +43,6 @@ html {
 @media (min-width: 38em) {
   html {
     font-size: 20px;
-  }
-  html,
-  body {
-    background-image: None;
   }
 }
 
