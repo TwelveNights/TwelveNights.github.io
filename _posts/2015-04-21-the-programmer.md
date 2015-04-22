@@ -1,6 +1,8 @@
 ﻿---
+
 layout: post
 title: The Programmer
+
 ---
 
 Computer science eludes the vast majority of people due to how recent it is, how quickly it develops, and how much it has changed the world. Bill Gates’ dream of ‘a computer on every desk and in every home’ became a reality near the end of the 20th century, connecting the ordinary person with the computing world. However, a layer of abstraction has quietly settled in between the user and the computer, allowing computers to be used even by those without technical experience. Media, in an effort to present information in an easy-to-swallow manner, obfuscates computer science in the absence of context and adds in fantastical attributes of intimidation and mystery. The most well known signs related to computer science are associated with hacking, and hackers. Signs come in various shapes and forms, but they all point towards one absurd myth: computer science is the language of the lawless digital world, the internet, and such knowledge, along with its wielders, should be feared.
