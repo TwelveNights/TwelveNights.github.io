@@ -48,7 +48,7 @@
 
 @media (min-device-width: 801px) {
   html, body {
-    background-image: url('../../images/wall.png');
+    background-image: None;
   }
 }
 
