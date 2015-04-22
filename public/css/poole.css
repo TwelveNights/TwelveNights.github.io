@@ -45,6 +45,10 @@ html {
   html {
     font-size: 20px;
   }
+  html,
+  body {
+    background-image: None;
+  }
 }
 
 body {
