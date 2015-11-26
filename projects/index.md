@@ -3,7 +3,7 @@ layout: page
 title: Projects
 ---
 
-What I spend my time on (rather than studying). Find more on [github](https://www.github.com/TwelveNights)!
+What I spend my time on (rather than studying). Find more on [Github](https://www.github.com/TwelveNights)!
 
 ***
 
