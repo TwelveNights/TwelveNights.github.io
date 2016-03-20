@@ -30,24 +30,24 @@
 html,
 body {
   text-align: center;
-  background-image: url('../../images/wall_min.jpg');
-  background-attachment: fixed;
-  background-position: top centre;
-  background-repeat: no-repeat;
   height: 100%;
   width: 100%;
   margin: 0;
+}
+html {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
   background-size: cover;
   -webkit-background-size: cover;
   -khtml-background-size: cover;
   -moz-background-size: cover;
   -ms-background-size: cover;
   -o-background-size: cover;
-}
-html {
-  font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-  line-height: 1.5;
+  background-image: url('../../images/wall_min.jpg');
+  background-attachment: fixed;
+  background-position: top centre;
+  background-repeat: no-repeat;
 }
 
 @media (min-width: 38em) {
