@@ -31,11 +31,12 @@ html,
 body {
   text-align: center;
   background-image: url('../../images/wall_min.jpg');
-  background-attachment: fixed !important;
+  background-attachment: fixed;
   background-position: top centre;
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
+  margin: 0;
   background-size: cover;
   -webkit-background-size: cover;
   -khtml-background-size: cover;
