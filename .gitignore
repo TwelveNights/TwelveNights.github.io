@@ -40,5 +40,8 @@ validation-report.json
 # Folders to ignore
 node_modules
 
-# image files
+# Build files
 public_html/
+
+# Metadata
+.jekyll-metadata

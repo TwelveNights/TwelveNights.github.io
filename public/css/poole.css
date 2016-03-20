@@ -27,47 +27,21 @@
           box-sizing: border-box;
 }
 
-/* background image */
-@media (min-device-width: 320px) {
-  html, body {
-    background-image: None;
-  }
-}
-
-@media (min-device-width: 480px) {
-  html, body {
-    background-image: None;
-  }
-}
-
-@media (min-device-width: 600px) {
-  html, body {
-    background-image: None;
-  }
-}
-
-@media (min-device-width: 801px) {
-  html, body {
-    background-image: None;
-  }
-}
-
-@media (min-width:1025px) {
-  html, body {
-    background-image: url('../../images/wall.png');
-  }
-}
-@media (min-width:1281px) {
-  html, body {
-    background-image: url('../../images/wall.png');
-  }
-}
 html,
 body {
   text-align: center;
+  background-image: url('../../images/wall-min.png');
   background-attachment: fixed !important;
-  background-position:0 -100;
-  background-size: 100%;
+  background-position: top centre;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -khtml-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
 }
 html {
   font-family: 'Raleway', sans-serif;
