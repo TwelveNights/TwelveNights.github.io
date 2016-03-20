@@ -13,7 +13,7 @@ Download support with Java Swing UI.
 ### [Death by the Second](https://www.github.com/TwelveNights/Death-by-the-Second)
 A death location time-lapser, made for the Riot Games API contest.
 
-### [www.eddiezhou.me](https://www.eddiezhou.me)
+### [www.eddiezhou.me](http://www.eddiezhou.me)
 Wow! You can now link directly back to my own website!
 
 ### [Kaki](https://www.github.com/TwelveNights/kaki)
