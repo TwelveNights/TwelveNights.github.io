@@ -1,20 +1,26 @@
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
+#relative_permalinks: true
+
+# Jekyll Configurations
+source: ./
+destination: ./public_html
 
 # Dependancies 
 highlighter: pygments
+gems: 			  [jekyll-paginate]
 
 # Setup
 title:            Eddie Zhou
 tagline:          Programmer, I think.
 url:              http://eddiezhou.me
-paginate:         1
+paginate: 1
+paginate_path: 	  "page:num"
 baseurl:          /
 author:
-  name:           Eddie Zhou
-  url:            github.com/TwelveNights
-  email:          me@eddiezhou.me
+name:             Eddie Zhou
+url:              github.com/TwelveNights
+email:            me@eddiezhou.me
 
 # Custom vars
 version:          1.0.0
